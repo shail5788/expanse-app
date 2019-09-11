@@ -6,12 +6,12 @@ const routes: Routes = [
   {
     path: "login",
     component: LoginComponent,
-    data: { showHeader: false, showSidebar: false }
+    data: { showHeader: false, showSidebar: false,showFooter:false }
   },
   {
     path: "sign-up",
     component: RegistrationComponent,
-    data: { showHeader: false, showSidebar: false }
+    data: { showHeader: false, showSidebar: false ,showFooter:false}
   }
 ];
 
